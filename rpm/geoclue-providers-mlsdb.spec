@@ -57,6 +57,14 @@ Requires:  %{name} = %{version}
 %description data-au
 %{summary}.
 
+%package data-de
+Summary:   Cell tower id to location data (.de)
+Group:     System/Data
+Requires:  %{name} = %{version}
+
+%description data-de
+%{summary}.
+
 %prep
 %setup -q -n %{name}-%{version}
 
@@ -94,3 +102,7 @@ make INSTALL_ROOT=%{buildroot} install
 %files data-au
 %defattr(-,root,root,-)
 %{_datadir}/geoclue-provider-mlsdb/au/mlsdb.data
+
+%files data-de
+%defattr(-,root,root,-)
+%{_datadir}/geoclue-provider-mlsdb/de/mlsdb.data
