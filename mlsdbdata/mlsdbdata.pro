@@ -16,10 +16,15 @@ australia_data.path=/usr/share/geoclue-provider-mlsdb/au/
 finland_data.files=fi/mlsdb.data
 finland_data.path=/usr/share/geoclue-provider-mlsdb/fi/
 
+# Germany: generated with: geoclue-mlsdb-tool -c Germany MLS-full-cell-export-2016-04-01T000000.csv
+germany_data.files=de/mlsdb.data
+germany_data.path=/usr/share/geoclue-provider-mlsdb/de/
+
 OTHER_FILES += \
     $$devel_data.files \
     $$india_data.files \
     $$australia_data.files \
-    $$finland_data.files
+    $$finland_data.files \
+    $$germany_data.files
 
-INSTALLS += devel_data india_data australia_data finland_data
+INSTALLS += devel_data india_data australia_data finland_data germany_data
