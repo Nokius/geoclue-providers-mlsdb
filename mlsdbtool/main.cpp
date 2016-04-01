@@ -75,6 +75,15 @@ QMap<QString, BoundingBox> countryBoundingBoxes()
 {
     QMap<QString, BoundingBox> retn;
 
+    BoundingBox germany_bb;
+    germany_bb.latShift = 0.0;
+    germany_bb.lonShift = 0.0;
+    germany_bb.lowerLeft.lat = 47.270;
+    germany_bb.lowerLeft.lon = 5.666;
+    germany_bb.upperRight.lat = 55.058;
+    germany_bb.upperRight.lon = 15.042;
+    retn.insert(QLatin1String("Germany"), germany_bb);
+
     BoundingBox india_bb;
     india_bb.latShift = 0.0;
     india_bb.lonShift = 0.0;
@@ -117,7 +126,8 @@ QMap<QString, QVector<BoundingBox> > regionBoundingBoxes()
     QVector<BoundingBox> devel;
     devel << cbboxes.value(QLatin1String("Finland"))
           << cbboxes.value(QLatin1String("Australia"))
-          << cbboxes.value(QLatin1String("India"));
+          << cbboxes.value(QLatin1String("India"))
+          << cbboxes.value(QLatin1String("Germany"));
     retn.insert(QLatin1String("Devel"), devel);
 
     return retn;
