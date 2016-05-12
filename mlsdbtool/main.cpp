@@ -376,6 +376,15 @@ QMap<QString, BoundingBox> countryBoundingBoxes()
     poland_bb.upperRight.lon = 24.030;
     retn.insert(QLatin1String("Poland"), poland_bb);
 
+    BoundingBox portugal_bb;
+    portugal_bb.latShift = 0.0;
+    portugal_bb.lonShift = 0.0;
+    portugal_bb.lowerLeft.lat = -9.527;
+    portugal_bb.lowerLeft.lon = 36.838;
+    portugal_bb.upperRight.lat = 42.280;
+    portugal_bb.upperRight.lon = -6.389;
+    retn.insert(QLatin1String("Portugal"), portugal_bb);
+
     BoundingBox india_bb;
     india_bb.latShift = 0.0;
     india_bb.lonShift = 0.0;
