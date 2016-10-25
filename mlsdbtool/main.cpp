@@ -268,6 +268,15 @@ QMap<QString, BoundingBox> countryBoundingBoxes()
     greece_bb.upperRight.lon = 26.604;
     retn.insert(QLatin1String("Greece"), greece_bb);
 
+    BoundingBox guernsey_bb;
+    guernsey_bb.latShift = 0.0;
+    guernsey_bb.lonShift = 0.0;
+    guernsey_bb.lowerLeft.lat = 49.406;
+    guernsey_bb.lowerLeft.lon = -2.675;
+    guernsey_bb.upperRight.lat = 49.739;
+    guernsey_bb.upperRight.lon = -2.164;
+    retn.insert(QLatin1String("Guernsey"), guernsey_bb);
+
     BoundingBox hungary_bb;
     hungary_bb.latShift = 0.0;
     hungary_bb.lonShift = 0.0;
