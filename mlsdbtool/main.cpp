@@ -205,6 +205,15 @@ QMap<QString, BoundingBox> countryBoundingBoxes()
     estonia_bb.upperRight.lon = 28.132;
     retn.insert(QLatin1String("Estonia"), estonia_bb);
 
+    BoundingBox faroe_islands_bb;
+    faroe_islands_bb.latShift = 0.0;
+    faroe_islands_bb.lonShift = 0.0;
+    faroe_islands_bb.lowerLeft.lat = 61.395;
+    faroe_islands_bb.lowerLeft.lon = -7.681;
+    faroe_islands_bb.upperRight.lat = 62.401;
+    faroe_islands_bb.upperRight.lon = -6.259;
+    retn.insert(QLatin1String("Faroe_Islands"), faroe_islands_bb);
+
     BoundingBox finland_bb;
     finland_bb.latShift = 0.0;
     finland_bb.lonShift = 0.0;
