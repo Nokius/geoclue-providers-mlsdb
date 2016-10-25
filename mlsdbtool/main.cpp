@@ -313,6 +313,15 @@ QMap<QString, BoundingBox> countryBoundingBoxes()
     italy_bb.upperRight.lon = 18.480;
     retn.insert(QLatin1String("Italy"), italy_bb);
 
+    BoundingBox jersey_bb;
+    jersey_bb.latShift = 0.0;
+    jersey_bb.lonShift = 0.0;
+    jersey_bb.lowerLeft.lat = 49.162;
+    jersey_bb.lowerLeft.lon = -2.255;
+    jersey_bb.upperRight.lat = 49.262;
+    jersey_bb.upperRight.lon = -2.011;
+    retn.insert(QLatin1String("Jersey"), jersey_bb);
+
     BoundingBox latvia_bb;
     latvia_bb.latShift = 0.0;
     latvia_bb.lonShift = 0.0;
