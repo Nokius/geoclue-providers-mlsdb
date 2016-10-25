@@ -223,6 +223,15 @@ QMap<QString, BoundingBox> countryBoundingBoxes()
     france_bb.upperRight.lon = 9.560;
     retn.insert(QLatin1String("France"), france_bb);
 
+    BoundingBox georgia_bb;
+    georgia_bb.latShift = 0.0;
+    georgia_bb.lonShift = 0.0;
+    georgia_bb.lowerLeft.lat = 41.064;
+    georgia_bb.lowerLeft.lon = 39.955;
+    georgia_bb.upperRight.lat = 43.553;
+    georgia_bb.upperRight.lon = 46.648;
+    retn.insert(QLatin1String("Georgia"), georgia_bb);
+
     BoundingBox germany_bb;
     germany_bb.latShift = 0.0;
     germany_bb.lonShift = 0.0;
