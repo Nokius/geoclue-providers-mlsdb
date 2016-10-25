@@ -313,6 +313,15 @@ QMap<QString, BoundingBox> countryBoundingBoxes()
     macedonia_bb.upperRight.lon = 22.952;
     retn.insert(QLatin1String("Macedonia"), macedonia_bb);
 
+    BoundingBox malta_bb;
+    malta_bb.latShift = 0.0;
+    malta_bb.lonShift = 0.0;
+    malta_bb.lowerLeft.lat = 35.786;
+    malta_bb.lowerLeft.lon = 14.183;
+    malta_bb.upperRight.lat = 36.082;
+    malta_bb.upperRight.lon = 14.577;
+    retn.insert(QLatin1String("Malta"), malta_bb);
+
     BoundingBox india_bb;
     india_bb.latShift = 0.0;
     india_bb.lonShift = 0.0;
