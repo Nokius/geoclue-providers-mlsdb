@@ -439,6 +439,15 @@ QMap<QString, BoundingBox> countryBoundingBoxes()
     switzerland_bb.upperRight.lon = 10.443;
     retn.insert(QLatin1String("Switzerland"), switzerland_bb);
 
+    BoundingBox ukraine_bb;
+    ukraine_bb.latShift = 0.0;
+    ukraine_bb.lonShift = 0.0;
+    ukraine_bb.lowerLeft.lat = 44.361;
+    ukraine_bb.lowerLeft.lon = 22.057;
+    ukraine_bb.upperRight.lat = 52.335;
+    ukraine_bb.upperRight.lon = 40.081;
+    retn.insert(QLatin1String("Ukraine"), ukraine_bb);
+
     BoundingBox united_kingdom_bb;
     united_kingdom_bb.latShift = 0.0;
     united_kingdom_bb.lonShift = 0.0;
