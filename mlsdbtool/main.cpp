@@ -205,6 +205,15 @@ QMap<QString, BoundingBox> countryBoundingBoxes()
     estonia_bb.upperRight.lon = 28.132;
     retn.insert(QLatin1String("Estonia"), estonia_bb);
 
+    BoundingBox finland_bb;
+    finland_bb.latShift = 0.0;
+    finland_bb.lonShift = 0.0;
+    finland_bb.lowerLeft.lat = 59.45;
+    finland_bb.lowerLeft.lon = 18.0;
+    finland_bb.upperRight.lat = 70.083;
+    finland_bb.upperRight.lon = 33.35;
+    retn.insert(QLatin1String("Finland"), finland_bb);
+
     BoundingBox india_bb;
     india_bb.latShift = 0.0;
     india_bb.lonShift = 0.0;
@@ -222,15 +231,6 @@ QMap<QString, BoundingBox> countryBoundingBoxes()
     australia_bb.upperRight.lat = -9.133;
     australia_bb.upperRight.lon = 168.0;
     retn.insert(QLatin1String("Australia"), australia_bb);
-
-    BoundingBox finland_bb;
-    finland_bb.latShift = 0.0;
-    finland_bb.lonShift = 0.0;
-    finland_bb.lowerLeft.lat = 59.45;
-    finland_bb.lowerLeft.lon = 18.0;
-    finland_bb.upperRight.lat = 70.083;
-    finland_bb.upperRight.lon = 33.35;
-    retn.insert(QLatin1String("Finland"), finland_bb);
 
     return retn;
 }
