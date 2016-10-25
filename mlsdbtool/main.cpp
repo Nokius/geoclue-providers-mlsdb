@@ -106,6 +106,15 @@ QMap<QString, BoundingBox> countryBoundingBoxes()
     armenia_bb.upperRight.lon = 46.505;
     retn.insert(QLatin1String("Armenia"), armenia_bb);
 
+    BoundingBox austria_bb;
+    austria_bb.latShift = 0.0;
+    austria_bb.lonShift = 0.0;
+    austria_bb.lowerLeft.lat = 46.432;
+    austria_bb.lowerLeft.lon = 9.480;
+    austria_bb.upperRight.lat = 49.039;
+    austria_bb.upperRight.lon = 16.980;
+    retn.insert(QLatin1String("Austria"), austria_bb)
+
     BoundingBox india_bb;
     india_bb.latShift = 0.0;
     india_bb.lonShift = 0.0;
