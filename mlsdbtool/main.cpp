@@ -349,6 +349,15 @@ QMap<QString, BoundingBox> countryBoundingBoxes()
     moldava_bb.upperRight.lon = 30.025;
     retn.insert(QLatin1String("Moldava"), moldava_bb);
 
+    BoundingBox monaco_bb;
+    monaco_bb.latShift = 0.0;
+    monaco_bb.lonShift = 0.0;
+    monaco_bb.lowerLeft.lat = 43.725;
+    monaco_bb.lowerLeft.lon = 7.409;
+    monaco_bb.upperRight.lat = 43.752;
+    monaco_bb.upperRight.lon = 7.439;
+    retn.insert(QLatin1String("Monaco"), monaco_bb);
+
     BoundingBox montenegro_bb;
     montenegro_bb.latShift = 0.0;
     montenegro_bb.lonShift = 0.0;
