@@ -475,6 +475,15 @@ QMap<QString, BoundingBox> countryBoundingBoxes()
     romania_bb.upperRight.lon = 29.637;
     retn.insert(QLatin1String("Romania"), romania_bb);
 
+    BoundingBox san_marino_bb;
+    san_marino_bb.latShift = 0.0;
+    san_marino_bb.lonShift = 0.0;
+    san_marino_bb.lowerLeft.lat = 43.893;
+    san_marino_bb.lowerLeft.lon = 12.403;
+    san_marino_bb.upperRight.lat = 43.992;
+    san_marino_bb.upperRight.lon = 12.517;
+    retn.insert(QLatin1String("San_Marino"), san_marino_bb);
+
     BoundingBox serbia_bb;
     serbia_bb.latShift = 0.0;
     serbia_bb.lonShift = 0.0;
