@@ -420,7 +420,7 @@ Requires:  %{name} = %{version}
 %{summary}.
 
 %package data-si
-Summary:   Cell id to location data (.sk)
+Summary:   Cell id to location data (.si)
 Group:     System/Data
 Requires:  %{name} = %{version}
 
