@@ -396,7 +396,7 @@ Requires:  %{name} = %{version}
 %{summary}.
 
 %package data-sm
-Summary:   Cell id to location data (.ro)
+Summary:   Cell id to location data (.sm)
 Group:     System/Data
 Requires:  %{name} = %{version}
 
