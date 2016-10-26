@@ -16,6 +16,10 @@ andorra_data.path=/usr/share/geoclue-provider-mlsdb/ad/
 armenia_data.files=am/*
 armenia_data.path=/usr/share/geoclue-provider-mlsdb/am/
 
+# Austria: generated with: geoclue-mlsdb-tool -c Austria MLS-full-cell-export-2016-10-26T000000.csv
+austria_data.files=at/*
+austria_data.path=/usr/share/geoclue-provider-mlsdb/at/
+
 # India: generated with: geoclue-mlsdb-tool -c India MLS-full-cell-export-2016-03-14T000000.csv
 india_data.files=in/*
 india_data.path=/usr/share/geoclue-provider-mlsdb/in/
@@ -33,8 +37,9 @@ OTHER_FILES += \
     $$albania_data.files \
     $$andorra_data.files \
     $$armenia_data.files \
+    $$austria_data.files \
     $$india_data.files \
     $$australia_data.files \
     $$finland_data.files
 
-INSTALLS += aland_islands_data albania_data andorra_data armenia_data india_data australia_data finland_data
+INSTALLS += aland_islands_data albania_data andorra_data armenia_data austria_data india_data australia_data finland_data
