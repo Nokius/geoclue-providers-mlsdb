@@ -403,6 +403,14 @@ Requires:  %{name} = %{version}
 %description data-sm
 %{summary}.
 
+%package data-sr
+Summary:   Cell id to location data (.sr)
+Group:     System/Data
+Requires:  %{name} = %{version}
+
+%description data-sr
+%{summary}.
+
 %package data-in
 Summary:   Cell id to location data (.in)
 Group:     System/Data
@@ -965,6 +973,18 @@ make INSTALL_ROOT=%{buildroot} install
 %{_datadir}/geoclue-provider-mlsdb/sm/4/mlsdb.data
 %{_datadir}/geoclue-provider-mlsdb/sm/5/mlsdb.data
 %{_datadir}/geoclue-provider-mlsdb/sm/6/mlsdb.data
+
+%files data-sr
+%defattr(-,root,root,-)
+%{_datadir}/geoclue-provider-mlsdb/rs/1/mlsdb.data
+%{_datadir}/geoclue-provider-mlsdb/rs/2/mlsdb.data
+%{_datadir}/geoclue-provider-mlsdb/rs/3/mlsdb.data
+%{_datadir}/geoclue-provider-mlsdb/rs/4/mlsdb.data
+%{_datadir}/geoclue-provider-mlsdb/rs/5/mlsdb.data
+%{_datadir}/geoclue-provider-mlsdb/rs/6/mlsdb.data
+%{_datadir}/geoclue-provider-mlsdb/rs/7/mlsdb.data
+%{_datadir}/geoclue-provider-mlsdb/rs/8/mlsdb.data
+%{_datadir}/geoclue-provider-mlsdb/rs/9/mlsdb.dat
 
 %files data-in
 %defattr(-,root,root,-)
