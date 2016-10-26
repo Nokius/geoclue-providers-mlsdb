@@ -729,7 +729,6 @@ make INSTALL_ROOT=%{buildroot} install
 %{_datadir}/geoclue-provider-mlsdb/li/2/mlsdb.data
 %{_datadir}/geoclue-provider-mlsdb/li/3/mlsdb.data
 %{_datadir}/geoclue-provider-mlsdb/li/4/mlsdb.data
-%{_datadir}/geoclue-provider-mlsdb/li/5/mlsdb.data
 %{_datadir}/geoclue-provider-mlsdb/li/6/mlsdb.data
 %{_datadir}/geoclue-provider-mlsdb/li/7/mlsdb.data
 %{_datadir}/geoclue-provider-mlsdb/li/8/mlsdb.data
