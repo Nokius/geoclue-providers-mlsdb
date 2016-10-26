@@ -163,14 +163,6 @@ Requires:  %{name} = %{version}
 %description data-fo
 %{summary}.
 
-%package data-in
-Summary:   Cell id to location data (.in)
-Group:     System/Data
-Requires:  %{name} = %{version}
-
-%description data-in
-%{summary}.
-
 
 %package data-fi
 Summary:   Cell id to location data (.fi)
@@ -180,6 +172,13 @@ Requires:  %{name} = %{version}
 %description data-fi
 %{summary}.
 
+%package data-in
+Summary:   Cell id to location data (.in)
+Group:     System/Data
+Requires:  %{name} = %{version}
+
+%description data-in
+%{summary}.
 
 %package data-au
 Summary:   Cell id to location data (.au)
@@ -399,17 +398,6 @@ make INSTALL_ROOT=%{buildroot} install
 %{_datadir}/geoclue-provider-mlsdb/fo/8/mlsdb.data
 %{_datadir}/geoclue-provider-mlsdb/fo/9/mlsdb.data
 
-%files data-in
-%defattr(-,root,root,-)
-%{_datadir}/geoclue-provider-mlsdb/in/1/mlsdb.data
-%{_datadir}/geoclue-provider-mlsdb/in/2/mlsdb.data
-%{_datadir}/geoclue-provider-mlsdb/in/3/mlsdb.data
-%{_datadir}/geoclue-provider-mlsdb/in/4/mlsdb.data
-%{_datadir}/geoclue-provider-mlsdb/in/5/mlsdb.data
-%{_datadir}/geoclue-provider-mlsdb/in/6/mlsdb.data
-%{_datadir}/geoclue-provider-mlsdb/in/7/mlsdb.data
-%{_datadir}/geoclue-provider-mlsdb/in/8/mlsdb.data
-%{_datadir}/geoclue-provider-mlsdb/in/9/mlsdb.data
 
 %files data-fi
 %defattr(-,root,root,-)
@@ -422,6 +410,18 @@ make INSTALL_ROOT=%{buildroot} install
 %{_datadir}/geoclue-provider-mlsdb/fi/7/mlsdb.data
 %{_datadir}/geoclue-provider-mlsdb/fi/8/mlsdb.data
 %{_datadir}/geoclue-provider-mlsdb/fi/9/mlsdb.data
+
+%files data-in
+%defattr(-,root,root,-)
+%{_datadir}/geoclue-provider-mlsdb/in/1/mlsdb.data
+%{_datadir}/geoclue-provider-mlsdb/in/2/mlsdb.data
+%{_datadir}/geoclue-provider-mlsdb/in/3/mlsdb.data
+%{_datadir}/geoclue-provider-mlsdb/in/4/mlsdb.data
+%{_datadir}/geoclue-provider-mlsdb/in/5/mlsdb.data
+%{_datadir}/geoclue-provider-mlsdb/in/6/mlsdb.data
+%{_datadir}/geoclue-provider-mlsdb/in/7/mlsdb.data
+%{_datadir}/geoclue-provider-mlsdb/in/8/mlsdb.data
+%{_datadir}/geoclue-provider-mlsdb/in/9/mlsdb.data
 
 %files data-au
 %defattr(-,root,root,-)
