@@ -60,6 +60,10 @@ denmark_data.path=/usr/share/geoclue-provider-mlsdb/dk/
 estonia_data.files=ee/*
 estonia_data.path=/usr/share/geoclue-provider-mlsdb/ee/
 
+# Faroe Islands: generated with: geoclue-mlsdb-tool -c Faroe_Islands MLS-full-cell-export-2016-10-26T000000.csv
+faroe_islands_data.files=fo/*
+faroe_islands_data.path=/usr/share/geoclue-provider-mlsdb/fo/
+
 # India: generated with: geoclue-mlsdb-tool -c India MLS-full-cell-export-2016-03-14T000000.csv
 india_data.files=in/*
 india_data.path=/usr/share/geoclue-provider-mlsdb/in/
@@ -88,8 +92,9 @@ OTHER_FILES += \
     $$cyprus_data.files \
     $$denmark_data.files \
     $$estonia_data.files \
+    $$faroe_islands_data.files \
     $$india_data.files \
     $$australia_data.files \
     $$finland_data.files
 
-INSTALLS += aland_islands_data albania_data andorra_data armenia_data austria_data azerbaijan_data belarus_data belgium_data bosnia_and_herzegovina_data bulgaria_data croatia_data czech_republic_data cyprus_data denmark_data estonia_data india_data australia_data finland_data
+INSTALLS += aland_islands_data albania_data andorra_data armenia_data austria_data azerbaijan_data belarus_data belgium_data bosnia_and_herzegovina_data bulgaria_data croatia_data czech_republic_data cyprus_data denmark_data estonia_data faroe_islands_data india_data australia_data finland_data
