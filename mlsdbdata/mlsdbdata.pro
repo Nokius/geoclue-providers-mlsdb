@@ -1,5 +1,9 @@
 TEMPLATE=aux
 
+# Aland_Islands: generated with: geoclue-mlsdb-tool -c Aland_Islands MLS-full-cell-export-2016-10-26T000000.csv
+aland_islands_data.files=ax/*
+aland_islands_data.path=/usr/share/geoclue-provider-mlsdb/ax/
+
 # India: generated with: geoclue-mlsdb-tool -c India MLS-full-cell-export-2016-03-14T000000.csv
 india_data.files=in/*
 india_data.path=/usr/share/geoclue-provider-mlsdb/in/
@@ -13,8 +17,9 @@ finland_data.files=fi/*
 finland_data.path=/usr/share/geoclue-provider-mlsdb/fi/
 
 OTHER_FILES += \
+    $$aland_islands_data.files \
     $$india_data.files \
     $$australia_data.files \
     $$finland_data.files
 
-INSTALLS += india_data australia_data finland_data
+INSTALLS += aland_islands_data india_data australia_data finland_data
