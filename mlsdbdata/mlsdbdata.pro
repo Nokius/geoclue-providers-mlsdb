@@ -37,4 +37,4 @@ OTHER_FILES += \
     $$australia_data.files \
     $$finland_data.files
 
-INSTALLS += aland_islands_data albania_data armenia_data india_data australia_data finland_data
+INSTALLS += aland_islands_data albania_data andorra_data armenia_data india_data australia_data finland_data
