@@ -188,6 +188,10 @@ san_marino_data.path=/usr/share/geoclue-provider-mlsdb/sm/
 serbia_data.files=rs/*
 serbia_data.path=/usr/share/geoclue-provider-mlsdb/rs/
 
+# Slovakia: generated with: geoclue-mlsdb-tool -c Slovakia MLS-full-cell-export-2016-10-26T000000.csv
+slovakia_data.files=sk/*
+slovakia_data.path=/usr/share/geoclue-provider-mlsdb/sk/
+
 # India: generated with: geoclue-mlsdb-tool -c India MLS-full-cell-export-2016-03-14T000000.csv
 india_data.files=in/*
 india_data.path=/usr/share/geoclue-provider-mlsdb/in/
@@ -244,7 +248,8 @@ OTHER_FILES += \
     $$romania_data.files \
     $$san_marino_data.files \
     $$serbia_data.files \
+    $$slovakia_data.files \
     $$india_data.files \
     $$australia_data.files 
 
-INSTALLS += aland_islands_data albania_data andorra_data armenia_data austria_data azerbaijan_data belarus_data belgium_data bosnia_and_herzegovina_data bulgaria_data croatia_data czech_republic_data cyprus_data denmark_data estonia_data faroe_islands_data finland_data france_data georgia_data germany_data gibraltar_data greece_data guernsey_data hungary_data iceland_data ireland_data isle_of_man_data italy_data jersey_data kazakhstan_data kosovo_data latvia_data liechtenstein_data lithuania_data luxembourg_data macedonia_data malta_data moldova_data monaco_data montenegro_data netherlands_data norway_data poland_data portugal_data romania_data san_marino_data serbia_data india_data australia_data
+INSTALLS += aland_islands_data albania_data andorra_data armenia_data austria_data azerbaijan_data belarus_data belgium_data bosnia_and_herzegovina_data bulgaria_data croatia_data czech_republic_data cyprus_data denmark_data estonia_data faroe_islands_data finland_data france_data georgia_data germany_data gibraltar_data greece_data guernsey_data hungary_data iceland_data ireland_data isle_of_man_data italy_data jersey_data kazakhstan_data kosovo_data latvia_data liechtenstein_data lithuania_data luxembourg_data macedonia_data malta_data moldova_data monaco_data montenegro_data netherlands_data norway_data poland_data portugal_data romania_data san_marino_data serbia_data slovakia_data india_data australia_data
