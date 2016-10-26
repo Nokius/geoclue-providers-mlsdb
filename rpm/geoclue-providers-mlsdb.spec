@@ -244,6 +244,14 @@ Requires:  %{name} = %{version}
 %description data-ie
 %{summary}.
 
+%package data-im
+Summary:   Cell id to location data (.im)
+Group:     System/Data
+Requires:  %{name} = %{version}
+
+%description data-im
+%{summary}.
+
 %package data-in
 Summary:   Cell id to location data (.in)
 Group:     System/Data
@@ -575,6 +583,14 @@ make INSTALL_ROOT=%{buildroot} install
 %{_datadir}/geoclue-provider-mlsdb/ie/7/mlsdb.data
 %{_datadir}/geoclue-provider-mlsdb/ie/8/mlsdb.data
 %{_datadir}/geoclue-provider-mlsdb/ie/9/mlsdb.data
+
+%files data-im
+%defattr(-,root,root,-)
+%{_datadir}/geoclue-provider-mlsdb/im/1/mlsdb.data
+%{_datadir}/geoclue-provider-mlsdb/im/2/mlsdb.data
+%{_datadir}/geoclue-provider-mlsdb/im/3/mlsdb.data
+%{_datadir}/geoclue-provider-mlsdb/im/4/mlsdb.data
+%{_datadir}/geoclue-provider-mlsdb/im/8/mlsdb.data
 
 %files data-gi
 %defattr(-,root,root,-)
