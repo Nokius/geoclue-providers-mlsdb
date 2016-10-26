@@ -443,7 +443,7 @@ Requires:  %{name} = %{version}
 %description data-se
 %{summary}.
 
-%package data-se
+%package data-ch
 Summary:   Cell id to location data (.ch)
 Group:     System/Data
 Requires:  %{name} = %{version}
