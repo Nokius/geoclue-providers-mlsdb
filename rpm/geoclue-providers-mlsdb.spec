@@ -75,6 +75,14 @@ Requires:  %{name} = %{version}
 %description data-at
 %{summary}.
 
+%package data-az
+Summary:   Cell id to location data (.az)
+Group:     System/Data
+Requires:  %{nate} = %{version}
+
+%description data-az
+%{summary}.
+
 %package data-in
 Summary:   Cell id to location data (.in)
 Group:     System/Data
@@ -183,6 +191,17 @@ make INSTALL_ROOT=%{buildroot} install
 %{_datadir}/geoclue-provider-mlsdb/at/7/mlsdb.data
 %{_datadir}/geoclue-provider-mlsdb/at/8/mlsdb.data
 %{_datadir}/geoclue-provider-mlsdb/at/9/mlsdb.data
+
+%files data-az
+%defattr(-,root,root,-)
+%{_datadir}/geoclue-provider-mlsdb/az/1/mlsdb.data
+%{_datadir}/geoclue-provider-mlsdb/az/2/mlsdb.data
+%{_datadir}/geoclue-provider-mlsdb/az/3/mlsdb.data
+%{_datadir}/geoclue-provider-mlsdb/az/4/mlsdb.data
+%{_datadir}/geoclue-provider-mlsdb/az/5/mlsdb.data
+%{_datadir}/geoclue-provider-mlsdb/az/6/mlsdb.data
+%{_datadir}/geoclue-provider-mlsdb/az/7/mlsdb.data
+%{_datadir}/geoclue-provider-mlsdb/az/8/mlsdb.data
 
 %files data-in
 %defattr(-,root,root,-)
