@@ -78,7 +78,7 @@ Requires:  %{name} = %{version}
 %package data-az
 Summary:   Cell id to location data (.az)
 Group:     System/Data
-Requires:  %{nate} = %{version}
+Requires:  %{name} = %{version}
 
 %description data-az
 %{summary}.
