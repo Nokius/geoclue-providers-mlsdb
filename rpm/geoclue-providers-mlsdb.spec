@@ -237,7 +237,7 @@ Requires:  %{name} = %{version}
 %{summary}.
 
 %package data-ie
-Summary:   Cell id to location data (.is)
+Summary:   Cell id to location data (.ie)
 Group:     System/Data
 Requires:  %{name} = %{version}
 
