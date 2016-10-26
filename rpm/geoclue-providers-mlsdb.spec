@@ -339,6 +339,14 @@ Requires:  %{name} = %{version}
 %description data-md
 %{summary}.
 
+%package data-mc
+Summary:   Cell id to location data (.mc)
+Group:     System/Data
+Requires:  %{name} = %{version}
+
+%description data-mc
+%{summary}.
+
 %package data-in
 Summary:   Cell id to location data (.in)
 Group:     System/Data
@@ -812,6 +820,15 @@ make INSTALL_ROOT=%{buildroot} install
 %{_datadir}/geoclue-provider-mlsdb/md/7/mlsdb.data
 %{_datadir}/geoclue-provider-mlsdb/md/8/mlsdb.data
 %{_datadir}/geoclue-provider-mlsdb/md/9/mlsdb.data
+
+%files data-mc
+%defattr(-,root,root,-)
+%{_datadir}/geoclue-provider-mlsdb/mc/1/mlsdb.data
+%{_datadir}/geoclue-provider-mlsdb/mc/2/mlsdb.data
+%{_datadir}/geoclue-provider-mlsdb/mc/3/mlsdb.data
+%{_datadir}/geoclue-provider-mlsdb/mc/5/mlsdb.data
+%{_datadir}/geoclue-provider-mlsdb/mc/6/mlsdb.data
+%{_datadir}/geoclue-provider-mlsdb/mc/9/mlsdb.data
 
 %files data-in
 %defattr(-,root,root,-)
