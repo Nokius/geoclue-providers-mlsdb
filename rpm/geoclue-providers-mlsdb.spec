@@ -403,12 +403,12 @@ Requires:  %{name} = %{version}
 %description data-sm
 %{summary}.
 
-%package data-sr
-Summary:   Cell id to location data (.sr)
+%package data-rs
+Summary:   Cell id to location data (.rs)
 Group:     System/Data
 Requires:  %{name} = %{version}
 
-%description data-sr
+%description data-rs
 %{summary}.
 
 %package data-sk
@@ -982,7 +982,7 @@ make INSTALL_ROOT=%{buildroot} install
 %{_datadir}/geoclue-provider-mlsdb/sm/5/mlsdb.data
 %{_datadir}/geoclue-provider-mlsdb/sm/6/mlsdb.data
 
-%files data-sr
+%files data-rs
 %defattr(-,root,root,-)
 %{_datadir}/geoclue-provider-mlsdb/rs/1/mlsdb.data
 %{_datadir}/geoclue-provider-mlsdb/rs/2/mlsdb.data
