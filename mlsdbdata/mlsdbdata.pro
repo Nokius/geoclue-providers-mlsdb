@@ -108,6 +108,10 @@ ireland_data.path=/usr/share/geoclue-provider-mlsdb/ie/
 isle_of_man_data.files=im/*
 isle_of_man_data.path=/usr/share/geoclue-provider-mlsdb/im/
 
+# Italy: generated with: geoclue-mlsdb-tool -c Italy MLS-full-cell-export-2016-10-26T000000.csv
+italy_data.files=it/*
+italy_data.path=/usr/share/geoclue-provider-mlsdb/it/
+
 # India: generated with: geoclue-mlsdb-tool -c India MLS-full-cell-export-2016-03-14T000000.csv
 india_data.files=in/*
 india_data.path=/usr/share/geoclue-provider-mlsdb/in/
@@ -144,7 +148,8 @@ OTHER_FILES += \
     $$iceland_data.files \
     $$ireland_data.files \
     $$isle_of_man_data.files \
+    $$italy_data.files \
     $$india_data.files \
     $$australia_data.files 
 
-INSTALLS += aland_islands_data albania_data andorra_data armenia_data austria_data azerbaijan_data belarus_data belgium_data bosnia_and_herzegovina_data bulgaria_data croatia_data czech_republic_data cyprus_data denmark_data estonia_data faroe_islands_data finland_data france_data georgia_data germany_data gibraltar_data greece_data guernsey_data hungary_data iceland_data ireland_data isle_of_man_data india_data australia_data
+INSTALLS += aland_islands_data albania_data andorra_data armenia_data austria_data azerbaijan_data belarus_data belgium_data bosnia_and_herzegovina_data bulgaria_data croatia_data czech_republic_data cyprus_data denmark_data estonia_data faroe_islands_data finland_data france_data georgia_data germany_data gibraltar_data greece_data guernsey_data hungary_data iceland_data ireland_data isle_of_man_data italy_data india_data australia_data
