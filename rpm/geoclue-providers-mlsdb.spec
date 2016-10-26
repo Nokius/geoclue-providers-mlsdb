@@ -428,7 +428,7 @@ Requires:  %{name} = %{version}
 %{summary}.
 
 %package data-es
-Summary:   Cell id to location data (.sk)
+Summary:   Cell id to location data (.es)
 Group:     System/Data
 Requires:  %{name} = %{version}
 
