@@ -599,7 +599,7 @@ make INSTALL_ROOT=%{buildroot} install
 %{_datadir}/geoclue-provider-mlsdb/hu/6/mlsdb.data
 %{_datadir}/geoclue-provider-mlsdb/hu/7/mlsdb.data
 %{_datadir}/geoclue-provider-mlsdb/hu/8/mlsdb.data
-%{_datadir}/geoclue-provider-mlsdb/hu/9/mlsdb.dat
+%{_datadir}/geoclue-provider-mlsdb/hu/9/mlsdb.data
 
 %files data-is
 %defattr(-,root,root,-)
