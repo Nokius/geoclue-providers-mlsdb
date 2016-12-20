@@ -619,6 +619,413 @@ QMap<QString, BoundingBox> countryBoundingBoxes()
     zimbabwe_bb.upperRight.lon = 32.850;
     retn.insert(QLatin1String("Zimbabwe"), zimbabwe_bb);
 
+// Asia
+
+    BoundingBox afghanistan_bb;
+    afghanistan_bb.latShift = 0.0;
+    afghanistan_bb.lonShift = 0.0;
+    afghanistan_bb.lowerLeft.lat = 29.319;
+    afghanistan_bb.lowerLeft.lon = 60.528;
+    afghanistan_bb.upperRight.lat = 38.486;
+    afghanistan_bb.upperRight.lon = 75.158;
+    retn.insert(QLatin1String("Afghanistan"), afghanistan_bb);
+
+    BoundingBox bahrain_bb;
+    bahrain_bb.latShift = 0.0;
+    bahrain_bb.lonShift = 0.0;
+    bahrain_bb.lowerLeft.lat = 25.542;
+    bahrain_bb.lowerLeft.lon = 50.386;
+    bahrain_bb.upperRight.lat = 26.292;
+    bahrain_bb.upperRight.lon = 50.828;
+    retn.insert(QLatin1String("Bahrain"), bahrain_bb);
+
+    BoundingBox bangladesh_bb;
+    bangladesh_bb.latShift = 0.0;
+    bangladesh_bb.lonShift = 0.0;
+    bangladesh_bb.lowerLeft.lat = 20.671;
+    bangladesh_bb.lowerLeft.lon = 88.085;
+    bangladesh_bb.upperRight.lat = 26.447;
+    bangladesh_bb.upperRight.lon = 92.673;
+    retn.insert(QLatin1String("Bangladesh"), bangladesh_bb);
+
+    BoundingBox bhutan_bb;
+    bhutan_bb.latShift = 0.0;
+    bhutan_bb.lonShift = 0.0;
+    bhutan_bb.lowerLeft.lat = 26.719;
+    bhutan_bb.lowerLeft.lon = 88.814;
+    bhutan_bb.upperRight.lat = 28.296;
+    bhutan_bb.upperRight.lon = 92.104;
+    retn.insert(QLatin1String("Bhutan"), bhutan_bb);
+
+    BoundingBox brunei_bb;
+    brunei_bb.latShift = 0.0;
+    brunei_bb.lonShift = 0.0;
+    brunei_bb.lowerLeft.lat = 4.008;
+    brunei_bb.lowerLeft.lon = 114.204;
+    brunei_bb.upperRight.lat = 5.448;
+    brunei_bb.upperRight.lon = 115.451;
+    retn.insert(QLatin1String("Brunei"), brunei_bb);
+
+    BoundingBox cambodia_bb;
+    cambodia_bb.latShift = 0.0;
+    cambodia_bb.lonShift = 0.0;
+    cambodia_bb.lowerLeft.lat = 10.487;
+    cambodia_bb.lowerLeft.lon = 102.348;
+    cambodia_bb.upperRight.lat = 14.571;
+    cambodia_bb.upperRight.lon = 107.615;
+    retn.insert(QLatin1String("Cambodia"), cambodia_bb);
+
+    BoundingBox china_bb;
+    china_bb.latShift = 0.0;
+    china_bb.lonShift = 0.0;
+    china_bb.lowerLeft.lat = 18.198;
+    china_bb.lowerLeft.lon = 73.675;
+    china_bb.upperRight.lat = 53.459;
+    china_bb.upperRight.lon = 135.026;
+    retn.insert(QLatin1String("China"), china_bb);
+
+    BoundingBox east_timor_bb;
+    east_timor_bb.latShift = 0.0;
+    east_timor_bb.lonShift = 0.0;
+    east_timor_bb.lowerLeft.lat = -9.393;
+    east_timor_bb.lowerLeft.lon = 124.969;
+    east_timor_bb.upperRight.lat = -8.273;
+    east_timor_bb.upperRight.lon = 127.336;
+    retn.insert(QLatin1String("East_Timor"), east_timor_bb);
+
+    BoundingBox india_bb;
+    india_bb.latShift = 0.0;
+    india_bb.lonShift = 0.0;
+    india_bb.lowerLeft.lat = 6.0;
+    india_bb.lowerLeft.lon = 65.0;
+    india_bb.upperRight.lat = 35.956;
+    india_bb.upperRight.lon = 97.35;
+    retn.insert(QLatin1String("India"), india_bb);
+
+    BoundingBox indonesia_bb;
+    indonesia_bb.latShift = 0.0;
+    indonesia_bb.lonShift = 0.0;
+    indonesia_bb.lowerLeft.lat = -10.360;
+    indonesia_bb.lowerLeft.lon = 95.293;
+    indonesia_bb.upperRight.lat = 5.480;
+    indonesia_bb.upperRight.lon = 141.034;
+    retn.insert(QLatin1String("Indonesia"), indonesia_bb);
+
+    BoundingBox iran_bb;
+    iran_bb.latShift = 0.0;
+    iran_bb.lonShift = 0.0;
+    iran_bb.lowerLeft.lat = 25.078;
+    iran_bb.lowerLeft.lon = 44.109;
+    iran_bb.upperRight.lat = 39.713;
+    iran_bb.upperRight.lon = 63.316;
+    retn.insert(QLatin1String("Iran"), iran_bb);
+
+    BoundingBox iraq_bb;
+    iraq_bb.latShift = 0.0;
+    iraq_bb.lonShift = 0.0;
+    iraq_bb.lowerLeft.lat = 29.1;
+    iraq_bb.lowerLeft.lon = 38.792;
+    iraq_bb.upperRight.lat = 37.385;
+    iraq_bb.upperRight.lon = 48.568;
+    retn.insert(QLatin1String("Iraq"), iraq_bb);
+
+    BoundingBox israel_bb;
+    israel_bb.latShift = 0.0;
+    israel_bb.lonShift = 0.0;
+    israel_bb.lowerLeft.lat = 29.501;
+    israel_bb.lowerLeft.lon = 34.265;
+    israel_bb.upperRight.lat = 33.277;
+    israel_bb.upperRight.lon = 35.836;
+    retn.insert(QLatin1String("Israel"), israel_bb);
+
+    BoundingBox japan_bb;
+    japan_bb.latShift = 0.0;
+    japan_bb.lonShift = 0.0;
+    japan_bb.lowerLeft.lat = 31.030;
+    japan_bb.lowerLeft.lon = 129.401;
+    japan_bb.upperRight.lat = 45.551;
+    japan_bb.upperRight.lon = 145.543;
+    retn.insert(QLatin1String("Japan"), japan_bb);
+
+    BoundingBox jordan_bb;
+    jordan_bb.latShift = 0.0;
+    jordan_bb.lonShift = 0.0;
+    jordan_bb.lowerLeft.lat = 29.197;
+    jordan_bb.lowerLeft.lon = 34.922;
+    jordan_bb.upperRight.lat = 33.379;
+    jordan_bb.upperRight.lon = 39.195;
+    retn.insert(QLatin1String("Jordan"), jordan_bb);
+
+    BoundingBox kuwait_bb;
+    kuwait_bb.latShift = 0.0;
+    kuwait_bb.lonShift = 0.0;
+    kuwait_bb.lowerLeft.lat = 28.526;
+    kuwait_bb.lowerLeft.lon = 46.569;
+    kuwait_bb.upperRight.lat = 30.059;
+    kuwait_bb.upperRight.lon = 48.416;
+    retn.insert(QLatin1String("Kuwait"), kuwait_bb);
+
+    BoundingBox kyrgyzstan_bb;
+    kyrgyzstan_bb.latShift = 0.0;
+    kyrgyzstan_bb.lonShift = 0.0;
+    kyrgyzstan_bb.lowerLeft.lat = 39.279;
+    kyrgyzstan_bb.lowerLeft.lon = 69.465;
+    kyrgyzstan_bb.upperRight.lat = 43.298;
+    kyrgyzstan_bb.upperRight.lon = 80.260;
+    retn.insert(QLatin1String("Kyrgyzstan"), kyrgyzstan_bb);
+
+    BoundingBox laos_bb;
+    laos_bb.latShift = 0.0;
+    laos_bb.lonShift = 0.0;
+    laos_bb.lowerLeft.lat = 13.881;
+    laos_bb.lowerLeft.lon = 100.115;
+    laos_bb.upperRight.lat = 22.465;
+    laos_bb.upperRight.lon = 107.565;
+    retn.insert(QLatin1String("Laos"), laos_bb);
+
+    BoundingBox lebanon_bb;
+    lebanon_bb.latShift = 0.0;
+    lebanon_bb.lonShift = 0.0;
+    lebanon_bb.lowerLeft.lat = 33.089;
+    lebanon_bb.lowerLeft.lon = 35.126;
+    lebanon_bb.upperRight.lat = 34.645;
+    lebanon_bb.upperRight.lon = 36.612;
+    retn.insert(QLatin1String("Lebanon"), lebanon_bb);
+
+    BoundingBox malaysia_bb;
+    malaysia_bb.latShift = 0.0;
+    malaysia_bb.lonShift = 0.0;
+    malaysia_bb.lowerLeft.lat = 0.773;
+    malaysia_bb.lowerLeft.lon = 100.086;
+    malaysia_bb.upperRight.lat = 6.928;
+    malaysia_bb.upperRight.lon = 119.182;
+    retn.insert(QLatin1String("Malaysia"), malaysia_bb);
+
+    BoundingBox maldives_bb;
+    maldives_bb.latShift = 0.0;
+    maldives_bb.lonShift = 0.0;
+    maldives_bb.lowerLeft.lat = -2.9;
+    maldives_bb.lowerLeft.lon = 72.616;
+    maldives_bb.upperRight.lat = 7.117;
+    maldives_bb.upperRight.lon = 73.767;
+    retn.insert(QLatin1String("Maldives"), maldives_bb);
+
+    BoundingBox mongolia_bb;
+    mongolia_bb.latShift = 0.0;
+    mongolia_bb.lonShift = 0.0;
+    mongolia_bb.lowerLeft.lat = 41.597;
+    mongolia_bb.lowerLeft.lon = 87.751;
+    mongolia_bb.upperRight.lat = 52.047;
+    mongolia_bb.upperRight.lon = 119.773;
+    retn.insert(QLatin1String("Mongolia"), mongolia_bb);
+
+    BoundingBox myanmar_bb;
+    myanmar_bb.latShift = 0.0;
+    myanmar_bb.lonShift = 0.0;
+    myanmar_bb.lowerLeft.lat = 9.932;
+    myanmar_bb.lowerLeft.lon = 92.303;
+    myanmar_bb.upperRight.lat = 28.336;
+    myanmar_bb.upperRight.lon = 101.180;
+    retn.insert(QLatin1String("Myanmar"), myanmar_bb);
+
+    BoundingBox nepal_bb;
+    nepal_bb.latShift = 0.0;
+    nepal_bb.lonShift = 0.0;
+    nepal_bb.lowerLeft.lat = 26.398;
+    nepal_bb.lowerLeft.lon = 80.088;
+    nepal_bb.upperRight.lat = 30.423;
+    nepal_bb.upperRight.lon = 88.174;
+    retn.insert(QLatin1String("Nepal"), nepal_bb);
+
+    BoundingBox north_korea_bb;
+    north_korea_bb.latShift = 0.0;
+    north_korea_bb.lonShift = 0.0;
+    north_korea_bb.lowerLeft.lat = 37.669;
+    north_korea_bb.lowerLeft.lon = 124.266;
+    north_korea_bb.upperRight.lat = 42.985;
+    north_korea_bb.upperRight.lon = 130.78;
+    retn.insert(QLatin1String("North_Korea"), north_korea_bb);
+
+    BoundingBox oman_bb;
+    oman_bb.latShift = 0.0;
+    oman_bb.lonShift = 0.0;
+    oman_bb.lowerLeft.lat = 16.651;
+    oman_bb.lowerLeft.lon = 52.0;
+    oman_bb.upperRight.lat = 26.396;
+    oman_bb.upperRight.lon = 59.808;
+    retn.insert(QLatin1String("Oman"), oman_bb);
+
+    BoundingBox pakistan_bb;
+    pakistan_bb.latShift = 0.0;
+    pakistan_bb.lonShift = 0.0;
+    pakistan_bb.lowerLeft.lat = 23.692;
+    pakistan_bb.lowerLeft.lon = 60.874;
+    pakistan_bb.upperRight.lat = 37.133;
+    pakistan_bb.upperRight.lon = 77.837;
+    retn.insert(QLatin1String("Pakistan"), pakistan_bb);
+
+    BoundingBox palestine_bb;
+    palestine_bb.latShift = 0.0;
+    palestine_bb.lonShift = 0.0;
+    palestine_bb.lowerLeft.lat = 31.223;
+    palestine_bb.lowerLeft.lon = 34.23;
+    palestine_bb.upperRight.lat = 33.34;
+    palestine_bb.upperRight.lon = 35.876;
+    retn.insert(QLatin1String("Palestine"), palestine_bb);
+
+    BoundingBox philippines_bb;
+    philippines_bb.latShift = 0.0;
+    philippines_bb.lonShift = 0.0;
+    philippines_bb.lowerLeft.lat = 5.581;
+    philippines_bb.lowerLeft.lon = 117.174;
+    philippines_bb.upperRight.lat = 18.505;
+    philippines_bb.upperRight.lon = 126.537;
+    retn.insert(QLatin1String("Philippines"), philippines_bb);
+
+    BoundingBox qatar_bb;
+    qatar_bb.latShift = 0.0;
+    qatar_bb.lonShift = 0.0;
+    qatar_bb.lowerLeft.lat = 24.556;
+    qatar_bb.lowerLeft.lon = 50.744;
+    qatar_bb.upperRight.lat = 26.115;
+    qatar_bb.upperRight.lon = 51.607;
+    retn.insert(QLatin1String("Qatar"), qatar_bb);
+
+    BoundingBox russia_bb;
+    russia_bb.latShift = 0.0;
+    russia_bb.lonShift = 0.0;
+    russia_bb.lowerLeft.lat = 41.151;
+    russia_bb.lowerLeft.lon = 19.639;
+    russia_bb.upperRight.lat = 81.25;
+    russia_bb.upperRight.lon = -168.997;
+    retn.insert(QLatin1String("Russia"), russia_bb);
+
+    BoundingBox saudi_arabia_bb;
+    saudi_arabia_bb.latShift = 0.0;
+    saudi_arabia_bb.lonShift = 0.0;
+    saudi_arabia_bb.lowerLeft.lat = 16.347;
+    saudi_arabia_bb.lowerLeft.lon = 34.632;
+    saudi_arabia_bb.upperRight.lat = 32.161;
+    saudi_arabia_bb.upperRight.lon = 55.666;
+    retn.insert(QLatin1String("Saudi_Arabia"), saudi_arabia_bb);
+
+    BoundingBox singapore_bb;
+    singapore_bb.latShift = 0.0;
+    singapore_bb.lonShift = 0.0;
+    singapore_bb.lowerLeft.lat = 1.115;
+    singapore_bb.lowerLeft.lon = 103.618;
+    singapore_bb.upperRight.lat = 1.471;
+    singapore_bb.upperRight.lon = 104.408;
+    retn.insert(QLatin1String("Singapore"), singapore_bb);
+
+    BoundingBox south_korea_bb;
+    south_korea_bb.latShift = 0.0;
+    south_korea_bb.lonShift = 0.0;
+    south_korea_bb.lowerLeft.lat = 34.39;
+    south_korea_bb.lowerLeft.lon = 126.117;
+    south_korea_bb.upperRight.lat = 38.612;
+    south_korea_bb.upperRight.lon = 129.468;
+    retn.insert(QLatin1String("South_Korea"), south_korea_bb);
+
+    BoundingBox sri_lanka_bb;
+    sri_lanka_bb.latShift = 0.0;
+    sri_lanka_bb.lonShift = 0.0;
+    sri_lanka_bb.lowerLeft.lat = 5.968;
+    sri_lanka_bb.lowerLeft.lon = 79.695;
+    sri_lanka_bb.upperRight.lat = 9.824;
+    sri_lanka_bb.upperRight.lon = 81.780;
+    retn.insert(QLatin1String("Sri_Lanka"), sri_lanka_bb);
+
+    BoundingBox syria_bb;
+    syria_bb.latShift = 0.0;
+    syria_bb.lonShift = 0.0;
+    syria_bb.lowerLeft.lat = 32.312;
+    syria_bb.lowerLeft.lon = 35.7;
+    syria_bb.upperRight.lat = 37.23;
+    syria_bb.upperRight.lon = 42.35;
+    retn.insert(QLatin1String("Syria"), syria_bb);
+
+    BoundingBox taiwan_bb;
+    taiwan_bb.latShift = 0.0;
+    taiwan_bb.lonShift = 0.0;
+    taiwan_bb.lowerLeft.lat = 21.971;
+    taiwan_bb.lowerLeft.lon = 120.106;
+    taiwan_bb.upperRight.lat = 25.295;
+    taiwan_bb.upperRight.lon = 121.951;
+    retn.insert(QLatin1String("Taiwan"), taiwan_bb);
+
+    BoundingBox tajikistan_bb;
+    tajikistan_bb.latShift = 0.0;
+    tajikistan_bb.lonShift = 0.0;
+    tajikistan_bb.lowerLeft.lat = 36.738;
+    tajikistan_bb.lowerLeft.lon = 67.442;
+    tajikistan_bb.upperRight.lat = 40.96;
+    tajikistan_bb.upperRight.lon = 74.98;
+    retn.insert(QLatin1String("Tajikistan"), tajikistan_bb);
+
+    BoundingBox thailand_bb;
+    thailand_bb.latShift = 0.0;
+    thailand_bb.lonShift = 0.0;
+    thailand_bb.lowerLeft.lat = 5.691;
+    thailand_bb.lowerLeft.lon = 97.376;
+    thailand_bb.upperRight.lat = 20.417;
+    thailand_bb.upperRight.lon = 105.589;
+    retn.insert(QLatin1String("Thailand"), thailand_bb);
+
+    BoundingBox turkey_bb;
+    turkey_bb.latShift = 0.0;
+    turkey_bb.lonShift = 0.0;
+    turkey_bb.lowerLeft.lat = 35.821;
+    turkey_bb.lowerLeft.lon = 26.043;
+    turkey_bb.upperRight.lat = 42.141;
+    turkey_bb.upperRight.lon = 44.794;
+    retn.insert(QLatin1String("Turkey"), turkey_bb);
+
+    BoundingBox turkmenistan_bb;
+    turkmenistan_bb.latShift = 0.0;
+    turkmenistan_bb.lonShift = 0.0;
+    turkmenistan_bb.lowerLeft.lat = 35.271;
+    turkmenistan_bb.lowerLeft.lon = 52.502;
+    turkmenistan_bb.upperRight.lat = 42.752;
+    turkmenistan_bb.upperRight.lon = 66.546;
+    retn.insert(QLatin1String("Turkmenistan"), turkmenistan_bb);
+
+    BoundingBox united_arab_emirates_bb;
+    united_arab_emirates_bb.latShift = 0.0;
+    united_arab_emirates_bb.lonShift = 0.0;
+    united_arab_emirates_bb.lowerLeft.lat = 22.497;
+    united_arab_emirates_bb.lowerLeft.lon = 51.58;
+    united_arab_emirates_bb.upperRight.lat = 26.055;
+    united_arab_emirates_bb.upperRight.lon = 56.396;
+    retn.insert(QLatin1String("United_Arab_Emirates"), united_arab_emirates_bb);
+
+    BoundingBox uzbekistan_bb;
+    uzbekistan_bb.latShift = 0.0;
+    uzbekistan_bb.lonShift = 0.0;
+    uzbekistan_bb.lowerLeft.lat = 37.145;
+    uzbekistan_bb.lowerLeft.lon = 55.929;
+    uzbekistan_bb.upperRight.lat = 45.587;
+    uzbekistan_bb.upperRight.lon = 73.055;
+    retn.insert(QLatin1String("Uzbekistan"), uzbekistan_bb);
+
+    BoundingBox vietnam_bb;
+    vietnam_bb.latShift = 0.0;
+    vietnam_bb.lonShift = 0.0;
+    vietnam_bb.lowerLeft.lat = 8.6;
+    vietnam_bb.lowerLeft.lon = 102.17;
+    vietnam_bb.upperRight.lat = 23.352;
+    vietnam_bb.upperRight.lon = 109.335;
+    retn.insert(QLatin1String("Vietnam"), vietnam_bb);
+
+    BoundingBox yemen_bb;
+    yemen_bb.latShift = 0.0;
+    yemen_bb.lonShift = 0.0;
+    yemen_bb.lowerLeft.lat = 12.586;
+    yemen_bb.lowerLeft.lon = 42.605;
+    yemen_bb.upperRight.lat = 19.0;
+    yemen_bb.upperRight.lon = 53.11;
+    retn.insert(QLatin1String("Yemen"), yemen_bb);
+
 // Europe
 
     BoundingBox aland_islands_bb;
@@ -1106,15 +1513,6 @@ QMap<QString, BoundingBox> countryBoundingBoxes()
     united_kingdom_bb.upperRight.lat = 58.635;
     united_kingdom_bb.upperRight.lon = 1.681;
     retn.insert(QLatin1String("United_Kingdom"), united_kingdom_bb);
-
-    BoundingBox india_bb;
-    india_bb.latShift = 0.0;
-    india_bb.lonShift = 0.0;
-    india_bb.lowerLeft.lat = 6.0;
-    india_bb.lowerLeft.lon = 65.0;
-    india_bb.upperRight.lat = 35.956;
-    india_bb.upperRight.lon = 97.35;
-    retn.insert(QLatin1String("India"), india_bb);
 
     BoundingBox australia_bb;
     australia_bb.latShift = 0.0;
